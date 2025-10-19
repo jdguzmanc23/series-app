@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TV Series</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+</head>
+<body>
+  <div class="container mt-4">
+    <h2>TV Series</h2>
+    <table class="table table-striped">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">Channel</th>
+          <th scope="col">Seasons</th>
+        </tr>
+      </thead>
+      <tbody id="series-body"></tbody>
+    </table>
+
+    <p class="font-weight-bold">Seasons average: <span id="avg-seasons">0</span></p>
+  </div>
+
+  <script type="module" src="./dist/Serie.js"></script>
+  <script type="module" src="./dist/data.js"></script>
+  <script type="module" src="./dist/main.js"></script>
+</body>
+</html>
